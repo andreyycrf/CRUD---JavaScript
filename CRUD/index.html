@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="/CRUD/style.css">
+</head>
+<body>
+    <h1>CRUD Nomes</h1>
+
+    <div class="form-container">
+     <input type="text" id="nomeInput" placeholder="Digite um nome" />
+      <input type="hidden" id="indiceEditar" />
+      <button onclick="criar()">Criar</button>
+      <button onclick="atualizar()">Atualizar</button>
+    </div>
+
+  <button onclick="ler()">Ler Lista</button>
+
+  <ul id="listaNomes"></ul>
+
+  <script src="script.js"></script>
+
+    
+</body>
+</html>
